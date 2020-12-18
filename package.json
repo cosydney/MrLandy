@@ -1,0 +1,19 @@
+{
+  "name": "scriptLanding",
+  "version": "1.0.0",
+  "description": "Script to create Gatsby pages",
+  "main": "index.js",
+  "author": "Sydney Cohen",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn index.js",
+    "clean": "rm -rf ./pages && mkdir pages",
+    "clean images": "rm -rf ./images && mkdir images"
+  },
+  "private": true,
+  "dependencies": {
+    "airtable": "^0.10.0",
+    "axios": "^0.19.2",
+    "fs": "^0.0.1-security"
+  }
+}
